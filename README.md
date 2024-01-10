@@ -39,3 +39,7 @@ Random Number Generator is a web application designed to generate random numbers
 ## License
 
 This project is open-source and is available under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
+
+## Testing
+
+To experience this project, you can visit the following link: [Random Number Generator](https://bbatistadaniel.github.io/RandomNumberGenerator)
