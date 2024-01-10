@@ -7,10 +7,8 @@ var audio = new Audio("assets/audios/click.mp3")
 // Wait for the DOM content to be fully loaded before executing the script
 document.addEventListener("DOMContentLoaded", function(){
 
-    // Set initial values for input fields and display
-    document.getElementById("in0").value = 0;
-    document.getElementById("in1").value = 99999;
-    document.getElementById("display").innerText = "00000";
+    // Set initial value for display
+    document.getElementById("display").innerText = "0";
 
     // Function to handle button clicks
     function buttonClick(){
