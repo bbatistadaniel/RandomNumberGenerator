@@ -6,6 +6,9 @@
     <title>Random Number Generator</title>
     <!-- Define character set and link to external stylesheet -->
     <meta charset="utf-8">
+    <!-- Link page width with device width -->
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <!-- Link stylesheet -->
     <link rel="stylesheet" href="style.css">
     <!-- Define page icon -->
     <link rel="shortcut icon" href="assets/images/icon.png">
@@ -17,20 +20,18 @@
 
     <!-- Main content container -->
     <div id="main">
-        <div class="container">
-            <!-- Title of the page -->
-            <div class="item title">Random Number Generator</div>
-            <!-- Display area for generated random numbers -->
-            <div class="item display" id="display">00000</div>
-            <!-- Text and input for the 'from' range -->
-            <div class="item text" id="text0">from</div>
-            <div class="item input" id="input0"><input id="in0" type="number" placeholder="0"></div>
-            <!-- Text and input for the 'to' range -->
-            <div class="item text" id="text1">to</div>
-            <div class="item input" id="input1"><input id="in1" type="number" placeholder="99999"></div>
-            <!-- Button to trigger random number generation -->
-            <div class="item button"><button id="button0">Generate</button></div>
-        </div>
+        <!-- Title of the page -->
+        <p id="title">Random Number Generator</p>
+        <!-- Display area for generated random numbers -->
+        <div id="display">00000</div>
+        <!-- Text and input for the 'from' range -->
+        <p class="text" id="text0">from</p>
+        <input id="input0" type="number" placeholder="0">
+        <!-- Text and input for the 'to' range -->
+        <p class="text" id="text1">to</p>
+        <input id="input1" type="number" placeholder="99999">
+        <!-- Button to trigger random number generation -->
+        <button id="button0">Generate</button>
     </div>
 
     <!-- Link to your GitHub profile -->

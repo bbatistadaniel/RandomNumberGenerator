@@ -32,9 +32,10 @@ Random Number Generator is a web application designed to generate random numbers
 
 2. Open the `index.html` file in a web browser.
 
-## Screenshot
+## Screenshots
 
-![J5104kv.md.png](https://iili.io/J5104kv.md.png)
+<img src="assets/images/screenshot_desktop.png" height="331"/>
+<img src="assets/images/screenshot_mobile.png" height="331"/>
 
 ## License
 

@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function(){
         audio.play()
         
         // Get the minimum and maximum values from input fields
-        min = Math.floor(document.getElementById("in0").value);
-        max = Math.ceil(document.getElementById("in1").value);
+        min = Math.floor(document.getElementById("input0").value);
+        max = Math.ceil(document.getElementById("input1").value);
 
         // Generate a random number within the specified range and update the display
         document.getElementById("display").innerText = String(Math.floor(Math.random()*(max-min+1)+min));
